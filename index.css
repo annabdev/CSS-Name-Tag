@@ -1,6 +1,6 @@
 body 
 {background: grey;
-.centered {
+  .centered {
   position: fixed;
   top: 50%;
   left: 100%;

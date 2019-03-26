@@ -4,15 +4,24 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
+<form><input type=text maximumlength="50" id="newName" placeholder="Your name here"><input type="button" onclick="inputForm(newName.value)"; value="submit">
+</form>
+<!-- <<button type="submit" onclick="inputForm(newName.value)">Submit</button>> -->
 <ul>
     <li><span>Hello</span></li>
     <li>My name is</li>
-      <li class="name">Anna
-       
+      <li class="name" id="name">
+        
     </li>
   <li class="filler">so long and thanks for all the fish</li>
   </ul>
+  <script>
+    function inputForm (newName)
+    {
+      console.log(newName);
+      document.getElementById("name").innerHTML = newName;
+    }
+  </script>
   </body>
   </html>
   
