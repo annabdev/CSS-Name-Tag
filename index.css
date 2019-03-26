@@ -1,0 +1,52 @@
+body 
+{background: grey;
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+}
+ul {
+  padding: 0%;
+  font-family: comic-sans;
+margin: 10%;
+  margin-top: 10%;
+width: 40%;
+background: red;
+align: center;
+color: #FFFF;
+border: 1px, solid, black;
+border-radius: 15px 15px 15px 15px;
+length: 120px;
+ list-style-type: none;
+}
+
+li span {
+  list-style: none;
+  text-align: center;
+  font-size: 60px;
+}
+li {
+  background:red;
+  font-size: 40px;
+  text-align: center;
+ align: center;
+  border: 1px, solid, black;
+border-radius: 15px 15px 15px 15px;
+
+}
+.name {
+  font-family: comic-sans;
+  text-align: center;
+  background: white;
+  color: black;
+  font-size: 60px;
+  padding: 10%;
+  border: 1px, solid, black;
+border-radius: 0px 0px 0px 0px;
+  }
+.filler {
+  background: red;
+  color: red; 
+}
