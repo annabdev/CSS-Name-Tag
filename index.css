@@ -1,24 +1,17 @@
 body 
 {background: grey;
-  .centered {
-  position: fixed;
-  top: 50%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-}
+  width: 100vw
 }
 ul {
   padding: 0%;
   font-family: comic-sans;
-margin: 10%;
-  margin-top: 10%;
-width: 40%;
-background: red;
-align: center;
-color: #FFFF;
-border: 1px, solid, black;
-border-radius: 15px 15px 15px 15px;
-length: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background: red;
+  color: rgb(255, 255, 255);
+  border: 1px, solid, black;
+  border-radius: 15px 15px 15px 15px;
+  width: 500px;
  list-style-type: none;
 }
 
@@ -31,9 +24,8 @@ li {
   background:red;
   font-size: 40px;
   text-align: center;
- align: center;
   border: 1px, solid, black;
-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
 
 }
 .name {
